@@ -1,1 +1,0 @@
-{"rsync":{"/vagrant/database/":{"type":"rsync","guestpath":"/vagrant/database","hostpath":"C:/devops-vms/Brief-Projet/database","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}

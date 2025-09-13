@@ -1,1 +1,0 @@
-{"virtualbox":{"/var/www/html":{"guestpath":"/var/www/html","hostpath":"C:/devops-vms/Brief Projet/website","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/devops-vms/Brief Projet","disabled":false,"__vagrantfile":true}}}
