@@ -1,19 +1,7 @@
-2025-10-04T20:50:02Z [INFO] Starting SysMonitor-Pro (interval=60s)
-2025-10-04T20:50:02Z [INFO] Running health checks
-2025-10-04T20:50:03Z [INFO] CPU OK: 60%
-2025-10-04T20:50:03Z [INFO] Memory OK: %
-2025-10-04T20:50:03Z [INFO] Disk / OK: 57%
-2025-10-04T20:50:04Z [WARN] systemctl not available; cannot check service sshd
-2025-10-04T20:50:04Z [INFO] [dry-run] Would restart service sshd
-2025-10-04T20:50:04Z [WARN] systemctl not available; cannot check service nginx
-2025-10-04T20:50:04Z [INFO] [dry-run] Would restart service nginx
-2025-10-04T20:50:04Z [WARN] DNS resolution for 8.8.8.8 FAILED
-2025-10-04T20:50:04Z [WARN] Ping to 8.8.8.8 FAILED
-2025-10-04T20:50:05Z [WARN] Network issue detected for 8.8.8.8
-2025-10-04T20:50:05Z [WARN] DNS resolution for github.com FAILED
-2025-10-04T20:50:05Z [WARN] Ping to github.com FAILED
-2025-10-04T20:50:05Z [WARN] Network issue detected for github.com
-2025-10-04T20:50:05Z [WARN] Process 'sshd' is NOT running
+SysMonitor-Pro Report
+Generated: 2025-10-04T22:13:13Z
+
+Recent log (last 50 lines):
 2025-10-04T20:50:05Z [WARN] Process sshd failure detected
 2025-10-04T20:50:05Z [INFO] [dry-run] Would attempt to restart process: sshd
 2025-10-04T20:50:06Z [WARN] Process 'nginx' is NOT running
@@ -64,25 +52,3 @@
 2025-10-04T22:13:13Z [WARN] Process nginx failure detected
 2025-10-04T22:13:13Z [INFO] [dry-run] Would attempt to restart process: nginx
 2025-10-04T22:13:13Z [INFO] Finished one-shot run
-2025-10-04T22:13:13Z [INFO] Wrote report to ./reports/report-20251004T221313Z.txt
-2025-10-04T22:17:29Z [INFO] Starting SysMonitor-Pro (interval=60s)
-2025-10-04T22:17:29Z [INFO] Running health checks
-2025-10-04T22:17:29Z [INFO] CPU OK: 1%
-2025-10-04T22:17:29Z [INFO] Memory OK: 13%
-2025-10-04T22:17:29Z [INFO] Disk /dev OK: 0%
-2025-10-04T22:17:29Z [INFO] Disk /dev/shm OK: 0%
-2025-10-04T22:17:29Z [INFO] Disk /run OK: 2%
-2025-10-04T22:17:29Z [INFO] Disk / OK: 3%
-2025-10-04T22:17:29Z [INFO] Disk /boot OK: 37%
-2025-10-04T22:17:29Z [INFO] Disk /run/user/1000 OK: 0%
-2025-10-04T22:17:29Z [INFO] Service sshd is active
-2025-10-04T22:17:29Z [WARN] Service nginx is not active
-2025-10-04T22:17:29Z [INFO] [dry-run] Would restart service nginx
-2025-10-04T22:17:29Z [INFO] DNS resolution for 8.8.8.8 OK
-2025-10-04T22:17:40Z [INFO] DNS resolution for github.com OK
-2025-10-04T22:17:40Z [INFO] Process 'sshd' is running
-2025-10-04T22:17:40Z [WARN] Process 'nginx' is NOT running
-2025-10-04T22:17:40Z [WARN] Process nginx failure detected
-2025-10-04T22:17:40Z [INFO] [dry-run] Would attempt to restart process: nginx
-2025-10-04T22:17:40Z [INFO] Finished one-shot run
-2025-10-04T22:17:40Z [INFO] Wrote report to ./reports/report-20251004T221740Z.txt

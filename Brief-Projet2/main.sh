@@ -40,6 +40,7 @@ done
 INTERVAL=${INTERVAL_OVERRIDE:-${CHECK_INTERVAL:-60}}
 
 mkdir -p "$(dirname "$LOG_FILE")"
+mkdir -p "${REPORT_DIR:-$SCRIPT_DIR/reports}"
 
 log_info "Starting SysMonitor-Pro (interval=${INTERVAL}s)"
 
@@ -54,6 +55,18 @@ main_loop() {
 if $ONCE; then
 	main_loop
 	log_info "Finished one-shot run"
+	# Generate a simple report from the recent logs
+	REPORT_DIR=${REPORT_DIR:-$SCRIPT_DIR/reports}
+	mkdir -p "$REPORT_DIR"
+	REPORT_FILE="$REPORT_DIR/report-$(date -u +%Y%m%dT%H%M%SZ).txt"
+	{
+		echo "SysMonitor-Pro Report"
+		echo "Generated: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+		echo
+		echo "Recent log (last 50 lines):"
+		tail -n 50 "$LOG_FILE" 2>/dev/null || true
+	} > "$REPORT_FILE"
+	log_info "Wrote report to $REPORT_FILE"
 	exit 0
 fi
 
