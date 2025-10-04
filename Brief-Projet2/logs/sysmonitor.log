@@ -1,0 +1,44 @@
+2025-10-04T20:50:02Z [INFO] Starting SysMonitor-Pro (interval=60s)
+2025-10-04T20:50:02Z [INFO] Running health checks
+2025-10-04T20:50:03Z [INFO] CPU OK: 60%
+2025-10-04T20:50:03Z [INFO] Memory OK: %
+2025-10-04T20:50:03Z [INFO] Disk / OK: 57%
+2025-10-04T20:50:04Z [WARN] systemctl not available; cannot check service sshd
+2025-10-04T20:50:04Z [INFO] [dry-run] Would restart service sshd
+2025-10-04T20:50:04Z [WARN] systemctl not available; cannot check service nginx
+2025-10-04T20:50:04Z [INFO] [dry-run] Would restart service nginx
+2025-10-04T20:50:04Z [WARN] DNS resolution for 8.8.8.8 FAILED
+2025-10-04T20:50:04Z [WARN] Ping to 8.8.8.8 FAILED
+2025-10-04T20:50:05Z [WARN] Network issue detected for 8.8.8.8
+2025-10-04T20:50:05Z [WARN] DNS resolution for github.com FAILED
+2025-10-04T20:50:05Z [WARN] Ping to github.com FAILED
+2025-10-04T20:50:05Z [WARN] Network issue detected for github.com
+2025-10-04T20:50:05Z [WARN] Process 'sshd' is NOT running
+2025-10-04T20:50:05Z [WARN] Process sshd failure detected
+2025-10-04T20:50:05Z [INFO] [dry-run] Would attempt to restart process: sshd
+2025-10-04T20:50:06Z [WARN] Process 'nginx' is NOT running
+2025-10-04T20:50:06Z [WARN] Process nginx failure detected
+2025-10-04T20:50:06Z [INFO] [dry-run] Would attempt to restart process: nginx
+2025-10-04T20:50:06Z [INFO] Finished one-shot run
+2025-10-04T20:50:24Z [INFO] Starting SysMonitor-Pro (interval=60s)
+2025-10-04T20:50:25Z [INFO] Running health checks
+2025-10-04T20:50:25Z [INFO] CPU OK: 48%
+2025-10-04T20:50:25Z [WARN] High memory usage: 84% (threshold 80%)
+2025-10-04T20:50:26Z [INFO] Disk / OK: 57%
+2025-10-04T20:50:26Z [WARN] systemctl not available; cannot check service sshd
+2025-10-04T20:50:26Z [INFO] [dry-run] Would restart service sshd
+2025-10-04T20:50:26Z [WARN] systemctl not available; cannot check service nginx
+2025-10-04T20:50:26Z [INFO] [dry-run] Would restart service nginx
+2025-10-04T20:50:26Z [WARN] DNS resolution for 8.8.8.8 FAILED
+2025-10-04T20:50:27Z [WARN] Ping to 8.8.8.8 FAILED
+2025-10-04T20:50:27Z [WARN] Network issue detected for 8.8.8.8
+2025-10-04T20:50:27Z [WARN] DNS resolution for github.com FAILED
+2025-10-04T20:50:27Z [WARN] Ping to github.com FAILED
+2025-10-04T20:50:27Z [WARN] Network issue detected for github.com
+2025-10-04T20:50:27Z [WARN] Process 'sshd' is NOT running
+2025-10-04T20:50:27Z [WARN] Process sshd failure detected
+2025-10-04T20:50:27Z [INFO] [dry-run] Would attempt to restart process: sshd
+2025-10-04T20:50:28Z [WARN] Process 'nginx' is NOT running
+2025-10-04T20:50:28Z [WARN] Process nginx failure detected
+2025-10-04T20:50:28Z [INFO] [dry-run] Would attempt to restart process: nginx
+2025-10-04T20:50:28Z [INFO] Finished one-shot run
